@@ -1,0 +1,71 @@
+.text-inputs label {
+    display: block;
+    margin: 1px;
+}
+
+.radio-inputs label {
+    display: block;
+    margin: 1px;
+}
+
+.button-group {
+    display: block;
+}
+
+.button-group input {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.server-table {
+    table-layout: fixed;
+    width: auto;
+    align-items: center;
+}
+
+.server-table tr {
+    min-width: 250px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: silver;
+}
+
+table tr:hover {
+    background-color: lightgray;
+}
+
+.subtable {
+    display: flex;
+    table-layout: fixed;
+    align-items: center;
+    flex-direction: column;
+    table-layout: fixed;
+    text-align: center;
+
+}
+.server-info {
+    text-align: left;
+    margin-left: 10px;
+}
+.subtable td {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.red-cell {
+    background-color: pink;
+}
+
+.green-cell {
+    background-color: lightgreen;
+    
+}
+.server-buttons {
+    display: flex;
+}
+
+
